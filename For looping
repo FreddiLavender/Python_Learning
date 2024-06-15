@@ -1,0 +1,19 @@
+#Basic for looping 
+for x in range(1,10):
+    print(x)
+    
+    
+#Going further with for looping
+for x in range(1, 20):
+    if x == 13:
+        continue
+    else:
+        print(x)
+
+    
+#Breaking loops 
+for x in range(1,20):
+    if x == 12:
+        break
+    else:
+        print(x)
