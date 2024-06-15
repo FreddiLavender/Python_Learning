@@ -1,0 +1,85 @@
+#Lets make a new song and repeat it 
+print("Happy birthday to you")
+print("You are old!")
+print("Happy birthday to you")
+
+print("Happy birthday to you")
+print("You are old!")
+print("Happy birthday to you")
+
+print("Happy birthday to you")
+print("You are old!")
+print("Happy birthday to you")
+
+#We can improve this however by creating a function
+
+def happy_birthday():
+    print("Happy birthday to you")
+    print("You are old!")
+    print("Happy birthday to you")
+    print()
+
+happy_birthday()
+
+#We can go further by adding arguments into functions 
+def happy_birthday(name):
+    print(f"Happy birthday to {name}")
+    print("You are old!")
+    print("Happy birthday to you")
+    print()
+
+happy_birthday("Bro")
+happy_birthday("Steve")
+happy_birthday("Joe")
+
+#Adding another argument
+def happy_birthday(name,age):
+    print(f"Happy birthday to {name}")
+    print(f"You are {age} old!")
+    print("Happy birthday to you")
+    print()
+
+happy_birthday("Bro",29)
+happy_birthday("Steve",90)
+happy_birthday("Joe",20)
+
+#Another example
+def display_invoice(username,amount,due_date):
+    print(f"Hello {username}")
+    print(f"Your bill of ${amount:.2f} is due: {due_date}")
+
+display_invoice("Jack", 90.98, "03/01")
+
+#RETURN FUNCTION
+
+return = statement used to end function
+def add(x,y):
+    z = x - y 
+    return z
+def subtract(x,y):
+    z = x - y 
+    return z
+def multiply(x,y):
+    z = x * y 
+    return z
+def divide(x,y):
+    z = x/y 
+    return z
+
+print(add (1,2))
+print(subtract(1,2))
+print(multiply(1,2))
+print(divide(1,2))
+
+def create_name(first,last):
+    first = first.capitalize()
+    last =last.capitalize()
+    return first+" " + last 
+full_name = create_name("Jack","Williams")
+print(full_name)
+
+
+
+
+
+
